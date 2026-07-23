@@ -14,6 +14,10 @@ Classic snake game built with pygame. Cross-platform, no external assets require
 git clone <repository-url>
 cd snake_python
 
+# Create and activate a virtual environment
+python3 -m venv .venv
+source .venv/bin/activate
+
 # Install dependencies
 pip install -r requirements.txt
 ```
@@ -26,11 +30,11 @@ python snake.py
 
 ## Controls
 
-| Key | Action |
-|-----|--------|
-| Arrow keys / WASD | Move snake |
-| ESC | Quit game |
-| SPACE / ENTER | Restart after game over |
+| Key               | Action                  |
+| ----------------- | ----------------------- |
+| Arrow keys / WASD | Move snake              |
+| ESC               | Quit game               |
+| SPACE / ENTER     | Restart after game over |
 
 ## Features
 

@@ -28,6 +28,12 @@ pip install -r requirements.txt
 python snake.py
 ```
 
+When you are done playing, deactivate the virtual environment:
+
+```bash
+deactivate
+```
+
 ## Controls
 
 | Key               | Action                  |
